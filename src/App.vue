@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Main msg="Welcome to Your Vue.js App" />
+  <Counter />
+  <Gugudan />
 </template>
-
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Main from './components/Main.vue';
+import Counter from './components/Counter.vue';
+import Gugudan from './components/Gugudan.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    HelloWorld,
+    Main,
+    Counter,
+    Gugudan,
   },
 };
 </script>
